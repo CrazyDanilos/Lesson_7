@@ -1,0 +1,454 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto+Slab:wght@300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700;900&display=swap');
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/*============================== Макет Figma ==========================*/
+
+.headerfig{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.containerfig{
+	max-width: 810px;
+	margin: 0px auto;
+	font-family:  "Lato";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.h1fig{
+	text-align: left;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	margin-bottom: 26px;
+	color: #1E212C;
+}
+
+.calendar{
+	display: inline-block;
+	color: #787A80;
+	background: url("../img/Calendar.svg") 0 5px / 16px no-repeat;
+	padding-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 40px;
+}
+
+.clock{
+	display: inline-block;
+	color: #787A80;
+	background: url("../img/Clock.svg") 0 5px / 16px no-repeat;
+	padding-left: 24px;
+	margin-bottom: 40px;
+}
+
+.hrimg{
+	max-width: 810px;
+	margin-bottom: 60px;
+}
+
+
+.h2fig{
+	
+	font-size: 20px;
+	font-weight: 700;
+	color: #1E212C;
+	text-align: left;
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+
+.p1fig{
+	
+	color: #424551;
+	margin-bottom: 38px;
+}
+
+
+.p2fig{
+	
+	color: #424551;
+	margin-bottom: 48px;
+}
+
+
+.p3fig{
+	
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #1E212C;
+	background: url("../img/braces.svg") 0 0 / 28px no-repeat;
+	padding-left: 58px;
+	margin-bottom: 48px;
+}
+
+.p4fig{
+	
+	color: #424551;
+	margin-bottom: 24px;
+}
+
+
+.item-list{
+	color: #424551;
+	margin-bottom: 4px;
+	background: url("../img/check.svg") 0 5px / 16px no-repeat;
+	padding-left: 32px;
+
+}
+
+.item-list-last{
+	color: #424551;
+	margin-bottom: 24px;
+	background: url("../img/check.svg") 0 5px / 16px no-repeat;
+	padding-left: 32px;
+}
+
+
+.p5fig{
+	color: #424551;
+	margin-bottom: 60px;
+}
+
+
+.why{
+	max-width: 400px;
+}
+
+.h2why{
+	color: #1E212C;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.p1why{
+
+	color: #1E212C;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	margin-bottom: 40px;
+}
+
+
+.why-item-list{
+	color: #424551;
+	margin-bottom: 12px;
+	background: url("../img/check.svg") 0 5px / 16px no-repeat;
+	padding-left: 32px;
+}
+
+
+.why-item-list-last{
+	color: #424551;
+	background: url("../img/check.svg") 0 5px / 16px no-repeat;
+	padding-left: 32px;
+	margin-bottom: 22px;
+}
+
+
+.button{
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	padding: 9px 32px;
+	border-radius: 4px;
+}
+
+
+.footerfig{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+/*============================== Статья =======================*/
+
+.containertrop{
+	background: url("../img/bgtropico.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width:110% ;
+	max-height: 110%;
+	background-position: 50% 50%;
+	background-size: 100% 100%;
+}
+
+.maintrop{
+	max-width: 1920px;
+	margin: 0px auto;
+}
+
+.image1{
+	text-align: center;
+}
+
+.imagepres{
+	max-width: 600px;
+	max-height: 600px;
+}
+
+
+.image2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.imagelogo{
+	max-width: 600px;
+	max-height: 600px;
+}
+
+.h1trop{
+	font-weight: 900;
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	margin-bottom: 25px;
+}
+
+.ios{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.imageios{
+	width: 300px;
+}
+
+.play{
+	text-align:  center;
+	margin-bottom: 25px;
+}
+
+.imageplay{
+	max-width: 300px;
+	max-height: 300px;
+}
+
+
+.block{
+	margin: 0px auto;
+	width: 700px;
+	height: 500px;
+	background-image: url("../img/board-tropico.jpg");
+	border-radius: 30px;
+	margin-bottom: 50px;
+	box-shadow: -10px 10px 20px rgb(0, 0, 0);
+}
+
+.h2trop{
+	font-weight: 700;
+	font-size: 24px;
+	padding-top: 35px;
+	padding-left: 35px;
+	margin: 0px auto;
+	max-width: 500px;
+	height: 100px;
+	background-image: url("../img/tape-tropico.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.p1trop{
+	padding-top: 20px;
+	margin: 0px auto;
+	font-weight: 400;
+	font-size: 24px;
+	width: 620px;
+	height: 350px;
+	background-image: url("../img/paper-tropico.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.spanblock{
+	font-weight: 400;
+	font-size: 28px;
+	display: block;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+
+.h2paper{
+	padding-top: 30px;
+	padding-left: 60px;
+	font-weight: 900;
+	font-size: 30px;
+	margin: 0px auto;
+	width: 500px;
+	height: 100px;
+	background-image: url("../img/tape-tropico.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.ppaper{
+	margin: 0px auto;
+	width: 900px;
+	height: 1500px;
+	background-image: url("../img/brown-paper-tropico.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 50px;
+}
+
+.redspan{
+	padding-top: 20px;
+	margin-bottom: 45px;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	color: #FF3F3A;
+	text-transform: uppercase;
+}
+
+
+.span1p{
+	padding-left: 70px;
+	padding-right: 70px;
+	display: block;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.spanitalic{
+	display: block;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 24px;
+	padding-left: 110px;
+	padding-right: 110px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.span2p{
+	display: block;
+	padding-left: 110px;
+	padding-right: 110px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+
+.span3p{
+	display: block;
+	padding-left: 110px;
+	padding-right: 110px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+
+.span4p{
+	display: block;
+	padding-left: 110px;
+	padding-right: 110px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+
+.span5p{
+	display: block;
+	padding-left: 110px;
+	padding-right: 110px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+
+
+iframe{
+	padding-left: 110px;
+	width: 800px;
+	height: 450px;
+}
+
+
+.p1fix{
+	margin: 0px auto;
+	width: 900px;
+	height: 850px;
+	background-image: url("../img/brown-paper-tropico.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+
+
+.spanfix{
+	padding: 0 110px;
+	display: block;
+	margin-bottom: 20px;
+	font-weight: 400;
+	font-size: 28px;
+	text-align: center;
+
+}
+
+.redspanlast{
+	margin-bottom: 45px;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	color: #FF3F3A;
+	text-transform: uppercase;
+}
